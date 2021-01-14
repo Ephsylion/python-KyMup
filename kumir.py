@@ -1,16 +1,13 @@
 walls = ['|','-','⌜','⌞','⌟','⌝', '\n']
-
 player= 'O'
 
+position_x = 1
+position_y = 0  
 room_x = 10
 room_y = 20
 
 command = ''
-
-alive = False
-
-position_x = 1
-position_y = 0        
+alive = False      
 
 class Roomer:
     def __init__(self):
